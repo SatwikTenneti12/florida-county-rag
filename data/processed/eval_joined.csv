@@ -1,0 +1,39 @@
+County,label_wildlife_corridors,pred_wildlife_corridors,match_wildlife_corridors,label_land_acquisition,pred_land_acquisition,match_land_acquisition,label_wildlife_crossings,pred_wildlife_crossings,match_wildlife_crossings,label_wildlife_surveys,pred_wildlife_surveys,match_wildlife_surveys,label_open_space,pred_open_space,match_open_space
+Baker County,True,True,True,True,True,True,False,False,True,False,False,True,True,True,True
+Bradford County,True,True,True,False,True,False,False,False,True,True,False,False,True,True,True
+Clay County,True,True,True,True,True,True,False,False,True,False,False,True,True,True,True
+Collier County,True,True,True,True,True,True,True,False,False,True,True,True,True,True,True
+Columbia County,True,True,True,True,True,True,False,True,False,True,True,True,True,True,True
+Dixie County,True,True,True,True,True,True,False,False,True,True,False,False,True,True,True
+Gilchrist County,True,True,True,True,True,True,False,True,False,True,True,True,True,True,True
+Glades County,True,True,True,False,True,False,True,True,True,True,True,True,True,True,True
+Gulf County,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Hamilton County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+Hardee County,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Hendry County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+Hernando County,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Highlands County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+Hillsborough County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+Indian River County,True,True,True,True,True,True,False,False,True,True,False,False,True,True,True
+Jackson County,True,True,True,True,True,True,True,False,False,True,False,False,True,True,True
+Jefferson County,True,True,True,True,False,False,False,False,True,False,False,True,True,True,True
+Lafayette County,True,False,False,True,True,True,False,False,True,False,False,True,True,True,True
+Okeechobee County,True,False,False,True,False,False,False,False,True,True,False,False,True,True,True
+Orange County,True,True,True,True,True,True,False,True,False,True,False,False,True,True,True
+Osceola County,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Palm Beach County,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Pasco County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+Pinellas County,False,True,False,True,True,True,False,True,False,False,True,False,True,True,True
+Polk County,False,True,False,True,True,True,False,True,False,False,True,False,True,True,True
+Putnam County,True,True,True,True,True,True,False,True,False,True,True,True,True,True,True
+St. Johns County,True,True,True,True,True,True,True,True,True,False,True,False,True,True,True
+St. Lucie County,True,True,True,True,True,True,False,True,False,True,True,True,False,True,False
+Santa Rosa County,True,True,True,True,True,True,False,True,False,False,True,False,True,True,True
+Sarasota County,True,False,False,True,True,True,False,False,True,False,False,True,True,True,True
+Sumter County,True,True,True,True,False,False,False,False,True,False,False,True,True,True,True
+Suwannee County,True,False,False,True,True,True,False,False,True,False,False,True,True,True,True
+Union County,True,False,False,False,True,False,False,False,True,False,False,True,True,True,True
+Volusia County,True,False,False,True,True,True,False,False,True,False,False,True,True,True,True
+Wakulla County,False,False,True,True,True,True,False,False,True,False,False,True,False,True,False
+Walton County,True,True,True,False,True,False,False,False,True,False,False,True,True,True,True
+Washington County,True,True,True,False,True,False,False,False,True,False,False,True,True,True,True

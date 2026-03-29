@@ -1,0 +1,70 @@
+county,wildlife_corridors,wildlife_crossings,land_acquisition,wildlife_surveys,open_space
+Alachua County,False,False,False,False,False
+Baker County,False,False,False,False,False
+Bay County,False,False,False,False,False
+Bradford County,False,False,False,False,False
+Brevard County,False,False,False,False,True
+Broward County Plans,False,False,False,False,False
+Calhoun County Plans,False,False,True,False,False
+Charlotte County Plans,False,False,False,False,False
+Citrus County Plans,False,False,False,False,True
+Clay County,False,False,False,False,True
+Collier County,False,False,False,True,True
+Columbia County,False,False,False,False,False
+Desoto County,False,False,False,False,True
+Dixie County,False,False,False,False,True
+Duval County Comprehensive Plan,False,False,False,True,False
+Escambia County Comprehensive Plan,False,False,False,False,False
+Flagler County Comprehensive Plan,False,False,True,False,True
+Franklin County Comprehensive Plan,False,False,False,False,False
+Gadsden County Comprehensive Plan,False,False,False,False,False
+Gilchrist County,False,False,False,False,False
+Glades County,False,False,False,False,True
+Gulf County,False,False,False,False,True
+Hamilton County,False,False,False,False,False
+Hardee County,False,False,False,False,True
+Hendry County,False,False,False,True,False
+Hernando County,True,False,False,False,True
+Hernando County Plan,False,False,False,False,True
+Highlands County,False,False,False,False,True
+Hillsborough County,False,False,True,False,True
+Holmes County,False,False,False,False,True
+Indian River County,False,False,True,False,True
+Jackson County,False,False,False,False,True
+Jefferson County,False,False,False,False,True
+Lafayette County,False,False,False,False,False
+Lake County,False,False,True,False,True
+Lee County,False,False,False,False,True
+Leon County,False,False,False,False,True
+Levy County,False,False,False,False,True
+Liberty County,True,False,False,False,False
+Madison County,False,False,False,False,False
+Manatee County,False,False,False,False,True
+Marion County,False,False,True,False,True
+Martin County,False,False,False,False,True
+Miami-Dade County,False,False,False,False,False
+Monroe County,False,False,True,False,False
+Nassau County,False,False,False,False,True
+Okaloosa County,False,False,False,False,False
+Okeechobee County,False,False,False,False,False
+Orange County,False,False,False,False,True
+Osceola County,False,True,False,False,True
+Palm Beach County,False,False,False,False,True
+Pasco County,False,False,False,False,False
+Pinellas County,False,False,False,False,False
+Polk County,False,False,False,False,True
+Putnam County,False,False,False,False,False
+Santa Rosa County,False,False,False,False,True
+Sarasota County,False,False,False,False,True
+Seminole County Plans,False,False,False,False,True
+St. Johns County,False,False,False,False,False
+St. Lucie County,False,False,False,False,False
+Sumter County,False,False,False,False,False
+Suwannee County,False,False,False,False,False
+Taylor County Plans,False,False,False,False,False
+Union County,False,False,False,False,False
+Volusia County,False,False,False,False,False
+Wakulla County,False,False,False,False,False
+Walton County,False,False,True,False,True
+Washington County,False,False,False,False,True
+_MULTI_COUNTY,False,False,False,False,False

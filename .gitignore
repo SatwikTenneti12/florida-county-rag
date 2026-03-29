@@ -1,0 +1,39 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.save
+.DS_Store
+Thumbs.db
+
+# Vector store (rebuild with: python src/indexing/build_chroma.py)
+chroma_db/
+
+# Raw PDF corpus (large; obtain separately or run ingestion)
+data/raw_pdfs/
+
+# Generated intermediates (rebuild via ingestion pipeline)
+data/processed/*.jsonl
+
+# Streamlit Cloud local secrets (if used)
+.streamlit/secrets.toml
