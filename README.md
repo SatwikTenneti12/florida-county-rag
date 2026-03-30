@@ -1,3 +1,14 @@
+---
+title: Florida County RAG
+emoji: 🐊
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.30.0
+app_file: app.py
+pinned: false
+---
+
 # Florida County RAG
 
 Citation-aware **Retrieval-Augmented Generation (RAG)** over Florida county comprehensive plans. PDFs are chunked and embedded into **Chroma**; retrieval feeds an **LLM** for answers with **page-level citations**. Optional pipelines classify five environmental policy topics and score predictions against a labeled dataset.
