@@ -34,6 +34,7 @@ data/raw_pdfs/
 
 # Generated intermediates (rebuild via ingestion pipeline)
 data/processed/*.jsonl
+!data/processed/chunks.jsonl
 
 # Streamlit Cloud local secrets (if used)
 .streamlit/secrets.toml

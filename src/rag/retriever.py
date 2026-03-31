@@ -5,6 +5,7 @@ Provides semantic search over the Chroma vector database with citation metadata.
 """
 
 import sys
+import os
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
@@ -14,7 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import chromadb
 from chromadb.config import Settings
 
-from config import CHROMA_DIR, COLLECTION_NAME
+from config import CHROMA_DIR, COLLECTION_NAME, CHUNKS_PATH, EMBEDDINGS_BASE_URL, EMBEDDINGS_API_KEY, EMBEDDINGS_MODEL
 from utils.embeddings import embed_query
 from utils.county_normalizer import normalize_county_name
 
@@ -60,7 +61,80 @@ class VectorRetriever:
             path=str(chroma_dir),
             settings=Settings(anonymized_telemetry=False)
         )
-        self.collection = self.client.get_collection(collection_name)
+        try:
+            self.collection = self.client.get_collection(collection_name)
+        except Exception:
+            self.collection = self._bootstrap_collection(collection_name)
+
+    def _bootstrap_collection(self, collection_name: str):
+        """
+        Build a collection on first run when Space storage is empty.
+        Uses `data/processed/chunks.jsonl` and embedding API secrets.
+        """
+        if not CHUNKS_PATH.exists():
+            raise RuntimeError(
+                f"Collection [{collection_name}] does not exist and missing chunks file at {CHUNKS_PATH}. "
+                "Add data/processed/chunks.jsonl to the repo."
+            )
+
+        if not EMBEDDINGS_BASE_URL or not EMBEDDINGS_API_KEY:
+            raise RuntimeError(
+                "Collection missing and embeddings config is incomplete. "
+                "Set EMBEDDINGS_BASE_URL and EMBEDDINGS_API_KEY in environment."
+            )
+
+        from indexing.build_chroma import load_chunks, stable_id, embed_texts
+
+        collection = self.client.get_or_create_collection(
+            name=collection_name,
+            metadata={"hnsw:space": "cosine"},
+        )
+        if collection.count() > 0:
+            return collection
+
+        limit = int(os.getenv("BOOTSTRAP_CHUNK_LIMIT", "0") or "0")
+        batch_size = int(os.getenv("BOOTSTRAP_EMBED_BATCH", "32") or "32")
+        chunks = load_chunks(limit=limit if limit > 0 else None)
+
+        unique = {}
+        for r in chunks:
+            cid = stable_id(
+                r["county"],
+                r["pdf_file"],
+                int(r["page_start"]),
+                int(r["page_end"]),
+                r["text"],
+            )
+            unique[cid] = r
+
+        items = list(unique.items())
+        for i in range(0, len(items), batch_size):
+            batch = items[i:i + batch_size]
+            ids = [cid for cid, _ in batch]
+            docs = [r["text"] for _, r in batch]
+            metas = [
+                {
+                    "county": r["county"],
+                    "pdf_file": r["pdf_file"],
+                    "page_start": int(r["page_start"]),
+                    "page_end": int(r["page_end"]),
+                }
+                for _, r in batch
+            ]
+            embeddings = embed_texts(
+                docs,
+                base_url=EMBEDDINGS_BASE_URL,
+                api_key=EMBEDDINGS_API_KEY,
+                model=EMBEDDINGS_MODEL,
+            )
+            collection.upsert(
+                ids=ids,
+                documents=docs,
+                metadatas=metas,
+                embeddings=embeddings,
+            )
+
+        return collection
     
     def retrieve(
         self,
