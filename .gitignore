@@ -38,3 +38,8 @@ data/processed/*.jsonl
 
 # Streamlit Cloud local secrets (if used)
 .streamlit/secrets.toml
+
+# Benchmark runs (keep pinned baseline files in git; see data/benchmarks/BASELINE_SNAPSHOT.txt)
+data/benchmarks/results/*
+!data/benchmarks/results/rag_baseline_run_20260411_173700.jsonl
+!data/benchmarks/results/rag_baseline_summary_20260411_173700.json

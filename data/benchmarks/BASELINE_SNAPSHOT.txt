@@ -1,0 +1,52 @@
+Florida County RAG — baseline measurement snapshot (current single-pass RAG)
+=============================================================================
+
+Purpose
+-------
+Fixed benchmark + metrics for the stock RAG answer engine. Re-run the same
+questions after agent-style retrieval to compare latency, retrieval distances,
+and answer quality.
+
+Pinned official run (local machine, 2026-04-11)
+------------------------------------------------
+  Run id:              20260411_173700
+  Summary JSON:        data/benchmarks/results/rag_baseline_summary_20260411_173700.json
+  Per-question JSONL: data/benchmarks/results/rag_baseline_run_20260411_173700.jsonl
+
+Configuration (that run)
+------------------------
+  Questions file:      data/benchmarks/rag_baseline_questions.jsonl
+  Questions count:     12
+  top_k (retrieval):  8
+  LLM model:           llama-3.1-8b-instruct  (from env / src/config.py)
+  Errors:              0
+
+Latency (seconds, that run)
+-----------------------------
+  mean:    3.0974
+  median:  3.0969
+  stdev:   1.523
+
+Repository revision (code + questions that define this baseline)
+----------------------------------------------------------------
+  This file marks the baseline harness + pinned result files. After you pull
+  the repo, identify the exact commit with:
+
+    git log -1 --oneline -- data/benchmarks/BASELINE_SNAPSHOT.txt
+
+  Optional: create an immutable tag at that commit, e.g.
+    git tag -a baseline-rag-v1 <that-commit>
+
+How to reproduce
+----------------
+  1. Checkout main at the commit from the command above (or use tag baseline-rag-v1).
+  2. Ensure Chroma index and API keys are configured as for normal app use.
+  3. Run:
+       python src/evaluation/run_rag_baseline.py
+     New runs write timestamped files under data/benchmarks/results/ and include
+     git_commit / branch / dirty flag in the summary JSON.
+
+Notes
+-----
+  Embeddings model and chunking are unchanged from your ingest pipeline; this
+  snapshot only pins question set + RAG path + one successful metrics run.

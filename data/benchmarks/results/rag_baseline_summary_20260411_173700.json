@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-04-11T17:37:37.620640+00:00",
+  "questions_file": "/Users/satwiktenneti/Documents/florida-county-rag/data/benchmarks/rag_baseline_questions.jsonl",
+  "llm_model": "llama-3.1-8b-instruct",
+  "top_k": 8,
+  "n_questions": 12,
+  "n_errors": 0,
+  "latency_sec_mean": 3.0974,
+  "latency_sec_median": 3.0969,
+  "latency_sec_stdev": 1.523,
+  "output_jsonl": "/Users/satwiktenneti/Documents/florida-county-rag/data/benchmarks/results/rag_baseline_run_20260411_173700.jsonl"
+}
