@@ -1,0 +1,2415 @@
+{
+  "matched_counties": 67,
+  "comparison_rows": 335,
+  "overall_agreement": 0.7672,
+  "overall_cohen_kappa": 0.4596,
+  "topic_metrics": {
+    "wildlife_corridors": {
+      "n": 67,
+      "agreement": 0.7761,
+      "cohen_kappa": 0.3322,
+      "tp": 46,
+      "tn": 6,
+      "fp": 13,
+      "fn": 2,
+      "precision": 0.7797,
+      "recall": 0.9583,
+      "f1": 0.8598
+    },
+    "land_acquisition": {
+      "n": 67,
+      "agreement": 0.8209,
+      "cohen_kappa": -0.0524,
+      "tp": 55,
+      "tn": 0,
+      "fp": 10,
+      "fn": 2,
+      "precision": 0.8462,
+      "recall": 0.9649,
+      "f1": 0.9016
+    },
+    "wildlife_crossings": {
+      "n": 67,
+      "agreement": 0.806,
+      "cohen_kappa": 0.531,
+      "tp": 13,
+      "tn": 41,
+      "fp": 8,
+      "fn": 5,
+      "precision": 0.619,
+      "recall": 0.7222,
+      "f1": 0.6667
+    },
+    "wildlife_surveys": {
+      "n": 67,
+      "agreement": 0.4776,
+      "cohen_kappa": 0.1174,
+      "tp": 18,
+      "tn": 14,
+      "fp": 32,
+      "fn": 3,
+      "precision": 0.36,
+      "recall": 0.8571,
+      "f1": 0.507
+    },
+    "open_space": {
+      "n": 67,
+      "agreement": 0.9552,
+      "cohen_kappa": -0.0203,
+      "tp": 64,
+      "tn": 0,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.9697,
+      "recall": 0.9846,
+      "f1": 0.9771
+    }
+  },
+  "comparisons": [
+    {
+      "county": "Alachua County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Alachua County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Alachua County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Alachua County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Alachua County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bradford County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bradford County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bradford County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Bradford County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bradford County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Broward County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Broward County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Broward County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Broward County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Broward County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Calhoun County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Calhoun County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Calhoun County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Calhoun County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Calhoun County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Citrus County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Citrus County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Citrus County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Citrus County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Citrus County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Columbia County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Columbia County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Columbia County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Columbia County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Columbia County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "DeSoto County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "DeSoto County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "DeSoto County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "DeSoto County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "DeSoto County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Dixie County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Dixie County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Dixie County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Dixie County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Dixie County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Escambia County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Escambia County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Escambia County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Escambia County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Escambia County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Flagler County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Flagler County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Flagler County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Flagler County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Flagler County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Franklin County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Franklin County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Franklin County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Franklin County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Franklin County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gadsden County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gadsden County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gadsden County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gadsden County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gadsden County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gilchrist County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gilchrist County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gilchrist County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gilchrist County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gilchrist County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Okaloosa County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Okaloosa County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Okaloosa County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Okaloosa County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Okaloosa County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Okeechobee County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Okeechobee County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Okeechobee County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Okeechobee County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Okeechobee County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pinellas County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Pinellas County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pinellas County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Pinellas County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Pinellas County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Santa Rosa County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Santa Rosa County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Santa Rosa County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Santa Rosa County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Santa Rosa County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Lucie County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "St. Lucie County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Lucie County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "St. Lucie County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "St. Lucie County",
+      "topic": "open_space",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sumter County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sumter County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Sumter County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Sumter County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sumter County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Suwannee County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Suwannee County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Suwannee County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Suwannee County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Suwannee County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Taylor County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Taylor County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Taylor County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Taylor County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Taylor County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Union County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Union County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Union County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Union County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Union County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Volusia County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Volusia County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Volusia County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Volusia County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Volusia County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Wakulla County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Wakulla County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Wakulla County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Wakulla County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Wakulla County",
+      "topic": "open_space",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Walton County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Walton County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Walton County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Walton County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Walton County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Washington County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Washington County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Washington County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Washington County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Washington County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Baker County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Baker County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Baker County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Baker County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Baker County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bay County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bay County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bay County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Bay County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Bay County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Brevard County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Brevard County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Brevard County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Brevard County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Brevard County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Clay County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Clay County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Clay County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Clay County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Clay County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Collier County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Collier County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Collier County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Collier County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Collier County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Duval County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Duval County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Duval County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Duval County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Duval County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Glades County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Glades County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Glades County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Glades County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Glades County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Monroe County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Monroe County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Monroe County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Monroe County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Monroe County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Nassau County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Nassau County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Nassau County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Nassau County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Nassau County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Orange County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Orange County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Orange County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Orange County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Orange County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Polk County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Polk County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Polk County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Polk County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Polk County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Putnam County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Putnam County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Putnam County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Putnam County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Putnam County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sarasota County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sarasota County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Sarasota County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Sarasota County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Sarasota County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Seminole County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Seminole County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Seminole County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Seminole County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Seminole County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Charlotte County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Charlotte County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Charlotte County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Charlotte County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Charlotte County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Osceola County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Osceola County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Osceola County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Osceola County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Osceola County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Palm Beach County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Palm Beach County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Palm Beach County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Palm Beach County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Palm Beach County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pasco County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pasco County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pasco County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Pasco County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Pasco County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Johns County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Johns County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Johns County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "St. Johns County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "St. Johns County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gulf County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gulf County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Gulf County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Gulf County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Gulf County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Holmes County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Holmes County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Holmes County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Holmes County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Holmes County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lafayette County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Lafayette County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lafayette County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Lafayette County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Lafayette County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Madison County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Madison County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Madison County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Madison County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Madison County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Levy County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Levy County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Levy County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Levy County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Levy County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Manatee County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Manatee County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Manatee County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Manatee County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Manatee County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jefferson County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jefferson County",
+      "topic": "land_acquisition",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jefferson County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Jefferson County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Jefferson County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hamilton County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hamilton County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hamilton County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Hamilton County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Hamilton County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Liberty County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Liberty County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Liberty County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Liberty County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Liberty County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hendry County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hendry County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hendry County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hendry County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hendry County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Leon County",
+      "topic": "wildlife_corridors",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Leon County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Leon County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Leon County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Leon County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Miami-Dade County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Miami-Dade County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Miami-Dade County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Miami-Dade County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Miami-Dade County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hernando County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hernando County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hernando County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hernando County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hernando County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hillsborough County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hillsborough County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hillsborough County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hillsborough County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hillsborough County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lee County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lee County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lee County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Lee County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lee County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Martin County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Martin County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Martin County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Martin County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Martin County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hardee County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hardee County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hardee County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hardee County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Hardee County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Highlands County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Highlands County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Highlands County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Highlands County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 1,
+      "ai_present": 1
+    },
+    {
+      "county": "Highlands County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Indian River County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Indian River County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Indian River County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Indian River County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Indian River County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jackson County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jackson County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Jackson County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Jackson County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Jackson County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Marion County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Marion County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Marion County",
+      "topic": "wildlife_crossings",
+      "human_present": 0,
+      "ai_score": 0,
+      "ai_present": 0
+    },
+    {
+      "county": "Marion County",
+      "topic": "wildlife_surveys",
+      "human_present": 0,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Marion County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lake County",
+      "topic": "wildlife_corridors",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lake County",
+      "topic": "land_acquisition",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lake County",
+      "topic": "wildlife_crossings",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lake County",
+      "topic": "wildlife_surveys",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    },
+    {
+      "county": "Lake County",
+      "topic": "open_space",
+      "human_present": 1,
+      "ai_score": 2,
+      "ai_present": 1
+    }
+  ]
+}

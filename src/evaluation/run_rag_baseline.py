@@ -95,6 +95,12 @@ def main() -> None:
         help="Directory for JSONL + summary JSON",
     )
     parser.add_argument("--top-k", type=int, default=8, help="Retriever top_k (default 8)")
+    parser.add_argument(
+        "--mode",
+        choices=("single", "agent"),
+        default="single",
+        help="single = one retrieval pass (legacy RAG baseline); agent = decompose + multi-query (default for product comparison use agent)",
+    )
     args = parser.parse_args()
 
     if not args.questions.exists():
@@ -119,7 +125,10 @@ def main() -> None:
 
         t0 = time.perf_counter()
         try:
-            result = engine.answer(question, county=county, top_k=args.top_k)
+            if args.mode == "agent":
+                result = engine.answer_agent(question, county=county, top_k=args.top_k)
+            else:
+                result = engine.answer_single_pass(question, county=county, top_k=args.top_k)
             err = None
         except Exception as e:
             result = None
@@ -148,6 +157,7 @@ def main() -> None:
             ctx_chars = sum(len(c.text) for c in result.sources)
             rec.update(
                 {
+                    "retrieval_mode": getattr(result, "retrieval_mode", args.mode),
                     "confidence": result.confidence,
                     "num_sources": len(result.sources),
                     "best_distance": round(best_d, 6) if best_d is not None else None,
@@ -169,6 +179,7 @@ def main() -> None:
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "questions_file": str(args.questions.resolve()),
         "llm_model": LLM_MODEL,
+        "retrieval_mode": args.mode,
         "top_k": args.top_k,
         "n_questions": len(items),
         "n_errors": sum(1 for r in rows_out if r.get("error")),

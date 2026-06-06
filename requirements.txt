@@ -11,9 +11,15 @@ chromadb>=0.4.0
 tqdm>=4.66.0
 python-dotenv>=1.0.0
 requests>=2.31.0
+httpx>=0.25.0
 
-# Web UI
-streamlit>=1.30.0
+# API Server
+fastapi>=0.100.0
+uvicorn>=0.23.0
+passlib[bcrypt]>=1.7.4
+PyJWT>=2.8.0
+slowapi>=0.1.9
+
 
 # For development/testing (optional)
 # pytest>=7.4.0

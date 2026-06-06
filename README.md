@@ -19,11 +19,12 @@ Citation-aware **Retrieval-Augmented Generation (RAG)** over Florida county comp
 
 | Layer | Choice |
 |--------|--------|
-| Language | Python 3 |
+| Language | Python 3 & JavaScript (React) |
 | Vector DB | Chroma (persistent, local `chroma_db/`) |
 | Embeddings | `nomic-embed-text-v1.5` (via configurable HTTP API) |
 | LLM | `llama-3.1-8b-instruct` default (configurable; UF AI Gateway–compatible) |
-| UI | Streamlit (`app.py`) |
+| API Backend | FastAPI (`api.py`) |
+| Frontend UI | React (`frontend/`) |
 | Eval | Per-topic accuracy / precision / recall / F1 vs `data/manifests/county_labels.csv` |
 
 ---
@@ -32,9 +33,10 @@ Citation-aware **Retrieval-Augmented Generation (RAG)** over Florida county comp
 
 ```
 florida-county-rag/
-├── app.py                    # Streamlit web UI (RAG Q&A, search, topic scan)
+├── api.py                    # FastAPI Backend API
 ├── requirements.txt
 ├── .env.example              # Template for API keys (copy → .env)
+├── frontend/                 # React frontend application
 ├── scripts/
 │   └── run_pipeline.py       # Optional: chunk → index → classify → evaluate
 ├── src/
@@ -77,12 +79,19 @@ florida-county-rag/
 4. **Data & index** (required for full functionality)
    - Place county PDFs under `data/raw_pdfs/` (expected layout is per-county folders; see `src/ingestion/extract_pages.py` / `config` for conventions).
    - Run the pipeline to produce `data/processed/*.jsonl` and `chroma_db/` (see **Pipeline** below).  
-   - *Without* `chroma_db/` and chunks, the Streamlit app and retriever will fail at runtime.
+   - *Without* `chroma_db/` and chunks, the retriever and API queries will fail at runtime.
 
-5. **Run the UI**
-   ```bash
-   streamlit run app.py
-   ```
+5. **Run the Application**
+   - **Start the Backend API:**
+     ```bash
+     python api.py
+     ```
+   - **Start the Frontend UI** (in a separate terminal):
+     ```bash
+     cd frontend
+     npm install
+     npm run dev
+     ```
 
 6. **CLI RAG** (optional)
    ```bash
@@ -151,7 +160,8 @@ Per `.gitignore`:
 
 ## Deployment note
 
-**Streamlit** apps are commonly deployed to **Streamlit Community Cloud** (GitHub + Secrets for env vars). **Vercel** is not a good fit for a long-running Streamlit server. See platform docs for size limits on repos and artifacts (`chroma_db` may need external storage or a build step for cloud).
+- **Frontend:** Can be deployed to static hosting providers like **Vercel**, **Netlify**, or **GitHub Pages**.
+- **Backend:** Can be deployed to container-based hosts like **Render**, **Railway**, **Fly.io**, or cloud virtual machines (e.g., AWS EC2, GCP Compute Engine). See the `Dockerfile` for containerization details.
 
 ---
 

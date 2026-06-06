@@ -49,7 +49,12 @@ def main():
         action="store_true",
         help="Only show retrieved sources without generating an answer"
     )
-    
+    parser.add_argument(
+        "--single-pass",
+        action="store_true",
+        help="Use one retrieval pass only (legacy RAG). Default is agent-style decompose + multi-query.",
+    )
+
     args = parser.parse_args()
     
     try:
@@ -77,12 +82,18 @@ def main():
                 print()
             return
         
-        # Full RAG answer
-        result = engine.answer(
-            args.question,
-            county=args.county,
-            top_k=args.top_k
-        )
+        if args.single_pass:
+            result = engine.answer_single_pass(
+                args.question,
+                county=args.county,
+                top_k=args.top_k,
+            )
+        else:
+            result = engine.answer(
+                args.question,
+                county=args.county,
+                top_k=args.top_k,
+            )
         
         if args.json:
             print(json.dumps(result.to_dict(), indent=2))

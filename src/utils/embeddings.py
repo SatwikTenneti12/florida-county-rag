@@ -5,6 +5,7 @@ Provides a consistent interface for generating embeddings via the API.
 """
 
 import requests
+import os
 from typing import List
 import sys
 sys.path.insert(0, str(__file__).rsplit("/", 2)[0])
@@ -20,12 +21,12 @@ class EmbeddingClient:
         api_key: str = EMBEDDINGS_API_KEY,
         base_url: str = EMBEDDINGS_BASE_URL,
         model: str = EMBEDDINGS_MODEL,
-        timeout: int = 120
+        timeout: int | None = None
     ):
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
         self.model = model
-        self.timeout = timeout
+        self.timeout = timeout or int(os.getenv("EMBEDDINGS_TIMEOUT_SECONDS", "8"))
         
         if not self.api_key or not self.base_url:
             raise ValueError("Missing API key or base URL for embeddings")
@@ -45,7 +46,12 @@ class EmbeddingClient:
             "input": texts
         }
         
-        resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+        except requests.exceptions.Timeout as e:
+            raise RuntimeError("Embeddings API timed out. Check EMBEDDINGS_BASE_URL, EMBEDDINGS_API_KEY, and gateway availability.") from e
+        except requests.exceptions.RequestException as e:
+            raise RuntimeError(f"Embeddings API request failed: {e}") from e
         
         if resp.status_code != 200:
             raise RuntimeError(f"Embeddings API error {resp.status_code}: {resp.text}")

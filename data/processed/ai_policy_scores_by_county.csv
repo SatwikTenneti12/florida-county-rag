@@ -1,0 +1,69 @@
+county,wildlife_corridors_score,wildlife_crossings_score,land_acquisition_score,wildlife_surveys_score,open_space_score,wildlife_corridors_confidence,wildlife_crossings_confidence,land_acquisition_confidence,wildlife_surveys_confidence,open_space_confidence,composite_score,composite_percent,policy_strength_tier
+Alachua County,2,0,1,0,2,high,high,medium,high,high,5,33.33,Weak
+Baker County,1,1,2,0,2,high,medium,high,high,high,6,40.0,Moderate
+Bay County,2,0,2,2,2,medium,high,high,high,high,8,53.33,Moderate
+Bradford County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Brevard County,2,1,2,2,2,high,medium,high,high,high,9,60.0,Moderate
+Broward County Plans,0,0,2,0,2,high,high,high,high,medium,4,26.67,Weak
+Calhoun County Plans,1,0,2,2,2,high,high,high,high,high,7,46.67,Moderate
+Charlotte County Plans,1,0,0,1,0,high,high,high,high,high,2,13.33,Weak
+Citrus County Plans,1,0,2,2,2,high,high,high,high,high,7,46.67,Moderate
+Clay County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Collier County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Columbia County,2,0,2,1,2,high,high,high,high,high,7,46.67,Moderate
+Desoto County,1,0,2,1,2,high,high,high,high,high,6,40.0,Moderate
+Dixie County,2,0,2,1,2,high,high,high,high,medium,7,46.67,Moderate
+Duval County Comprehensive Plan,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Escambia County Comprehensive Plan,2,0,2,1,2,high,high,medium,high,high,7,46.67,Moderate
+Flagler County Comprehensive Plan,2,0,2,1,2,high,high,high,high,medium,7,46.67,Moderate
+Franklin County Comprehensive Plan,1,0,2,0,2,high,high,high,high,high,5,33.33,Weak
+Gadsden County Comprehensive Plan,0,0,2,0,2,high,high,high,high,high,4,26.67,Weak
+Gilchrist County,2,0,2,2,2,medium,high,medium,high,high,8,53.33,Moderate
+Glades County,2,1,1,2,2,high,medium,medium,high,medium,8,53.33,Moderate
+Gulf County,0,0,1,2,2,high,high,medium,high,medium,5,33.33,Weak
+Hamilton County,2,0,2,0,2,high,high,high,high,high,6,40.0,Moderate
+Hardee County,2,2,2,2,2,high,medium,high,high,high,10,66.67,Moderate
+Hendry County,2,2,2,2,2,high,high,high,high,high,10,66.67,Moderate
+Hernando County,2,2,2,2,2,high,high,high,medium,high,10,66.67,Moderate
+Hernando County Plan,2,2,2,2,2,high,high,high,high,high,10,66.67,Moderate
+Highlands County,2,2,2,1,2,high,high,high,high,high,9,60.0,Moderate
+Hillsborough County,2,2,2,2,2,high,high,high,high,high,10,66.67,Moderate
+Holmes County,0,0,2,1,2,high,high,high,high,high,5,33.33,Weak
+Indian River County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Jackson County,2,0,2,0,2,high,high,high,high,high,6,40.0,Moderate
+Jefferson County,2,0,2,1,2,high,high,medium,medium,high,7,46.67,Moderate
+Lafayette County,1,0,2,1,2,high,high,high,high,high,6,40.0,Moderate
+Lake County,2,2,2,2,2,high,medium,high,high,high,10,66.67,Moderate
+Lee County,2,1,2,2,2,high,medium,high,high,high,9,60.0,Moderate
+Leon County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Levy County,2,0,0,0,2,high,high,high,high,high,4,26.67,Weak
+Liberty County,2,0,2,1,2,high,high,high,medium,high,7,46.67,Moderate
+Madison County,1,0,2,0,2,high,high,high,high,high,5,33.33,Weak
+Manatee County,0,0,2,0,2,high,high,medium,high,high,4,26.67,Weak
+Marion County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Martin County,2,1,2,2,2,medium,medium,high,high,high,9,60.0,Moderate
+Miami-Dade County,2,1,2,1,2,high,high,high,medium,high,8,53.33,Moderate
+Monroe County,2,2,2,2,2,high,high,high,medium,high,10,66.67,Moderate
+Nassau County,2,2,2,2,2,high,high,high,high,high,10,66.67,Moderate
+Okaloosa County,2,1,2,1,2,high,medium,high,medium,high,8,53.33,Moderate
+Okeechobee County,1,0,2,1,2,high,high,medium,medium,high,6,40.0,Moderate
+Orange County,2,1,2,2,2,high,high,high,high,high,9,60.0,Moderate
+Osceola County,2,2,2,2,2,high,high,high,high,high,10,66.67,Moderate
+Palm Beach County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Pasco County,2,2,2,0,2,high,medium,high,high,high,8,53.33,Moderate
+Pinellas County,0,0,2,0,2,high,high,high,high,medium,4,26.67,Weak
+Polk County,2,0,2,0,2,high,high,high,high,high,6,40.0,Moderate
+Putnam County,1,0,1,1,1,medium,high,medium,medium,medium,4,26.67,Weak
+Santa Rosa County,1,1,2,1,2,medium,high,high,high,medium,7,46.67,Moderate
+Sarasota County,1,0,2,1,2,medium,high,high,medium,high,6,40.0,Moderate
+Seminole County Plans,2,1,2,2,2,high,medium,high,high,high,9,60.0,Moderate
+St. Johns County,2,2,2,0,2,high,high,high,high,high,8,53.33,Moderate
+St. Lucie County,0,0,1,0,1,high,high,high,high,medium,2,13.33,Weak
+Sumter County,1,0,2,1,2,high,high,high,high,high,6,40.0,Moderate
+Suwannee County,2,0,2,1,2,high,high,high,high,high,7,46.67,Moderate
+Taylor County Plans,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Union County,2,0,2,0,2,high,high,high,high,high,6,40.0,Moderate
+Volusia County,2,0,2,2,2,high,high,high,high,high,8,53.33,Moderate
+Wakulla County,0,0,1,0,1,high,high,medium,high,medium,2,13.33,Weak
+Walton County,1,0,2,1,2,high,high,high,medium,high,6,40.0,Moderate
+Washington County,2,0,2,1,2,medium,high,high,medium,high,7,46.67,Moderate

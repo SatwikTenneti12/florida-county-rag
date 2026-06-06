@@ -100,6 +100,86 @@ class LLMClient:
                 time.sleep(wait)
 
         raise RuntimeError("LLM request failed unexpectedly after retries")
+
+    async def chat_async(
+        self,
+        messages: List[Dict[str, str]],
+        temperature: float = 0.1,
+        max_tokens: int = 2000,
+        system_prompt: Optional[str] = None,
+    ) -> str:
+        """Async version of chat completion."""
+        import httpx
+        url = f"{self.base_url}/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        full_messages = []
+        if system_prompt:
+            full_messages.append({"role": "system", "content": system_prompt})
+        full_messages.extend(messages)
+        
+        payload = {
+            "model": self.model,
+            "messages": full_messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        
+        async with httpx.AsyncClient(timeout=self.timeout) as client:
+            resp = await client.post(url, headers=headers, json=payload)
+            resp.raise_for_status()
+            data = resp.json()
+            return data["choices"][0]["message"]["content"]
+
+    async def chat_stream(
+        self,
+        messages: List[Dict[str, str]],
+        temperature: float = 0.1,
+        max_tokens: int = 2000,
+        system_prompt: Optional[str] = None,
+    ):
+        """Async generator for streaming chat completions."""
+        import httpx
+        import json
+        
+        url = f"{self.base_url}/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+            "Accept": "text/event-stream"
+        }
+        
+        full_messages = []
+        if system_prompt:
+            full_messages.append({"role": "system", "content": system_prompt})
+        full_messages.extend(messages)
+        
+        payload = {
+            "model": self.model,
+            "messages": full_messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "stream": True
+        }
+        
+        async with httpx.AsyncClient(timeout=self.timeout) as client:
+            async with client.stream("POST", url, headers=headers, json=payload) as response:
+                response.raise_for_status()
+                async for line in response.aiter_lines():
+                    if line.startswith("data: "):
+                        data_str = line[6:]
+                        if data_str == "[DONE]":
+                            break
+                        try:
+                            chunk = json.loads(data_str)
+                            delta = chunk["choices"][0].get("delta", {})
+                            if "content" in delta:
+                                yield delta["content"]
+                        except json.JSONDecodeError:
+                            pass
     
     def complete(
         self,
